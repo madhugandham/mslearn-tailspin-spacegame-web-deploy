@@ -94,7 +94,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      name: 'MyAggentPool2'
+      name: 'MyAgentPool2'
     environment: test
     variables:
     - group: 'Release'
